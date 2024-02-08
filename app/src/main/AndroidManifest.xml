@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthBuddies"
+        tools:targetApi="31">
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".displayfood"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".barcodescanner"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".fitnessgraph"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".UserCaloriesListActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".meditationvideos"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Nutrition"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".AddEnergy"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Meals"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Recipe"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".WaterSleep"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".advancedvideos"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".breathingpage"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".intermediatevideos"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".beginnervideos"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".MyDialogFragment"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Store"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".UserInformation"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".melodiespage"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".settingspage"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".sleeppage"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".fitnesspage"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+    </application>
+
+</manifest>

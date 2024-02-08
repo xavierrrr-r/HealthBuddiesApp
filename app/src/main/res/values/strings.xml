@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">HealthBuddies</string>
+    <string name="signUp"><u>Don\'t have an account yet? Register here</u></string>
+    <string name="signIn"><u>Already have an account? Login here</u></string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string-array name="age_array">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    //for spinner- add energy
+    <string-array name="spinner_meal_options">
+        <item> </item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+    </string-array>
+
+    //for spinner- sleep
+    <string-array name="spinner_days_slept">
+        <item> </item>
+        <item>Sun-Mon</item>
+        <item>Mon-Tue</item>
+        <item>Tue-Wed</item>
+        <item>Wed-Thur</item>
+        <item>Thur-Fri</item>
+        <item>Fri-Sat</item>
+        <item>Sat-Sun</item>
+    </string-array>
+
+</resources>
